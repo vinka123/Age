@@ -11,13 +11,15 @@ alert('Underage!!Stay with your mom ) :');
 alert('This is a simple app i created to determine your grade through your marks');
 var marks=parseInt(prompt('Enter your marks from 0-100'));
 if(marks<=20) {
-alert('Grade E');
+alert('Terrible!Very poor!!Grade E');
 } else if(marks>=21 && marks<=39) {
-alert('Grade D');
+alert('Improvement needed!Grade D');
 } else if(marks>=40 && marks<=59) {
-alert('Grade C');
+alert('Fair-Grade C');
 } else if(marks>=60 && marks<=79) {
-alert('Grade B');
+alert('Good-Grade B');
+} else if(marks>=80 && marks===100) {
+alert('Excellent!!Grade A');
 } else {
-alert('Grade A');
+alert('Seriously??No such marks:)')
 }
